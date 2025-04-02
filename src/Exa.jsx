@@ -12,6 +12,7 @@ const Exa = () => {
 
   const handleSubmit = () => {
     const value = inputRef.current.value;
+    inputRef.current.style.backgroundColor = "red";
     console.log(value);
   };
 
